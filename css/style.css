@@ -17,13 +17,13 @@ body{
     position: relative;
 }
 .overlay{
-    background-color: rgb(24, 22, 22);
+    background-color: rgb(69 28 28); 
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 .navbar .navbar-nav .nav-item a{
     color: white;
@@ -36,7 +36,7 @@ body{
 .description-home{
     position: relative;
     text-align: center;
-    top: 50%;
+    top: 60%;
 }
 .description-home p{
     font-size: 40px;
@@ -49,8 +49,16 @@ body{
     border-radius: 10px;
     background-color: brown;
     color: white;
+    font-size: 20px;
 
 }
 .description-home .description-p, .description-h{
     color: white;
+}
+/*Category start here*/
+.brand-category{
+position: relative;
+}
+.brand-category img{
+    width: 100%;
 }
