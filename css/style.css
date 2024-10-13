@@ -152,3 +152,20 @@ body{
     color: rgb(102, 92, 92);
     font-size: 20px;
 }
+/**blog start here**/
+.card-blog .card-blog-details{
+    color: var(--main-color);
+    font-weight: lighter;
+}
+.delivering h6{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.delivering i{
+    font-size: 45px;
+    background-color: #0898e7;
+    border-radius: 50%;
+    padding: 15px;
+    color: white;
+    box-shadow: 0px 0px 0px 10px rgba(8, 152, 231, .2);
+}
