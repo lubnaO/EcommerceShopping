@@ -19,6 +19,9 @@ body{
 :root{
     --main-color:rgb(158, 65, 65); 
 }
+.test{
+    background-color: red;
+}
 .title-sections h3{
     margin: -30px 0 0 0;
     font-size: 30px;
@@ -48,11 +51,12 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    opacity: 0.2;
+    opacity: 0.4;
 }
 .navbar .navbar-nav .nav-item a{
     color: white;
-    font-size: 20px;
+    font-size: 21px;
+    font-weight: 500;
 }
 .navbar-brand{
     font-size: 30px;
@@ -114,7 +118,7 @@ body{
 
 /**Features start here**/
 
- .products-features{
+ .swiper-slide .products-features{
     position: relative;
     display: flex;
     justify-content: center;
@@ -122,17 +126,17 @@ body{
     overflow: hidden;
     background-color: black;
  }
- .products-features img{
+ .swiper-slide .products-features img{
     width: 100%;
     height: 100%;
     transition: all 2s ease;
     overflow: hidden;
  }
- .products-features:hover img{
+ .swiper-slide .products-features:hover img{
     opacity: 0.7;
     transition: all 2s ease;
  }
- .products-features button{
+.swiper-slide .products-features button{
     position: absolute;
     font-size: 18px;
     padding: 5px 15px;
@@ -144,14 +148,14 @@ body{
     opacity: 0;
 
  }
- .products-features:hover button{
+ .swiper-slide .products-features:hover button{
     transform: translateX(0);
     transition: all 0.8s ease;
     opacity: 1;
 
  }
 
-.descriptionProducts .details{
+.swiper-slide .descriptionProducts .details{
     color: rgb(102, 92, 92);
     font-size: 20px;
 }
