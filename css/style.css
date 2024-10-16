@@ -8,9 +8,7 @@
     scroll-behavior: smooth;
     /* font-family: "Bebas Neue", sans-serif; */
 }
-body{
-    /* font-family: 'Open Sans', sans-serif; */
-}
+
 *{
     scroll-behavior: smooth;
     padding: 0;
@@ -33,10 +31,27 @@ body{
         color: var(--main-color);
        
 }
+
+@media(max-width: 576px)  {
+ 
+    .description-home  .botton-shopping{
+        padding: 10px 10px;
+        font-weight: lighter;
+        border: none;
+        border-radius: 10px;
+        background-color: #e77075ab;
+        color: white;
+        font-size: 18px;
+    }
+    .description-home .description-p, .description-h{
+        font-size: 25px;
+    }  
+}
+
 /**home section start**/
 .background-home{
     background-image: url(../images/background-header.jpg);
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
@@ -57,6 +72,7 @@ body{
     color: white;
     font-size: 21px;
     font-weight: 500;
+    font-weight: 400;
 }
 .navbar-brand{
     font-size: 30px;
@@ -69,21 +85,29 @@ body{
 }
 .description-home p{
     font-size: 40px;
-    font-weight: bold;
 }
 .description-home  button{
-    padding: 15px 35px;
-    font-weight: bold;
+    padding: 10px;
+    font-weight: 400;
     border: none;
     border-radius: 10px;
-    background-color: brown;
+    background-color: #e77075ab;
     color: white;
     font-size: 20px;
 }
 .description-home .description-p, .description-h{
     color: white;
+    font-weight: lighter;
 }
+.social-icons{
+    
+}
+.social-icons .icons{
 
+}
+.social-icons .icons li .twitter, .instagram, .youtube{
+    color: white;
+}
 /*Category start here*/
 
 .brand-category{
